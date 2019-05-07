@@ -24,6 +24,9 @@ from __future__ import print_function
 import dotscience as ds
 import glob
 
+ds.script()
+ds.start()
+
 # Import MNIST data
 from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets("./", one_hot=True)
